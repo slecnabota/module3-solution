@@ -1,0 +1,32 @@
+/* Custom styles */
+.tall-section {
+    height: 1000px;
+    background-color: #f8f9fa;
+}
+
+.menu-section {
+    height: 700px;
+    background-color: #b1b2b3;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+/* Mobile view styles */
+@media (max-width: 767.98px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+   
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .nav-link {
+        color: white;
+        text-align: center;
+    }
+}
